@@ -11,7 +11,7 @@ public class Map {
 	private int scale;
 	private Tile[][] map;
 	private Image image;
-//adiroene
+//adironene
 	//PhoebeTang132003
 // @param scale of each rect
 //@param how many rectangles for wid and height
