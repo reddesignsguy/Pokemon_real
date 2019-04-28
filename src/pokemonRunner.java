@@ -6,6 +6,8 @@ import java.util.Map;
 
 import javax.swing.*;
 // HULK DIES IN END GAME
+//Emily's hulky belly died
+//if you see this plea
 public class pokemonRunner {
 	private JPanel panel;
 	private PokemonGame game = new PokemonGame();

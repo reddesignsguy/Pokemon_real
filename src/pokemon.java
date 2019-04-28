@@ -16,6 +16,9 @@ public class pokemon { // all parameters requiring a string
 		this.type = type;
 	}
 
-
+	public int typeToNum() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }
