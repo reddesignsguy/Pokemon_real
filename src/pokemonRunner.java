@@ -5,7 +5,7 @@ import java.awt.event.KeyEvent;
 import java.util.Map;
 
 import javax.swing.*;
-// testing
+// HULK DIES IN END GAME
 public class pokemonRunner {
 	private JPanel panel;
 	private PokemonGame game = new PokemonGame();
