@@ -17,9 +17,5 @@ public class pokemon { // all parameters requiring a string
 	}
 
 
-	String getType() {
-		
-		return type;
-	}
 
 }
