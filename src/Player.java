@@ -37,6 +37,7 @@ public class Player {
 	}
 
 	public void move(String s) {
+		System.out.println("xCo: "+ rect.x + "yCo: " + rect.y);
 		if (s.equals("left")) {
 			rect.translate(-playerSize, 0);
 		}
@@ -53,9 +54,9 @@ public class Player {
 		}
 	}
 	
-	public void draw(Graphics g) {
+	public void draw(Graphics g, int xo, int yo) {
 		if(image != null) {
-			g.drawImage(image, rect.x, rect.y, rect.width,rect.height, null);
+			g.drawImage(image, rect.x + xo, rect.y + yo, rect.width,rect.height, null);
 		}
 		
 	}

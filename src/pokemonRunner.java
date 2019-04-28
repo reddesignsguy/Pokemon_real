@@ -152,11 +152,10 @@ public class pokemonRunner {
 	}
 	public  void hit(String s) {
 		((PokemonGame) game).keyHit(s);
-		panel.repaint();
+		
 	}
 	protected void drawGame(Graphics g) {
 		game.draw(g);
-		game.m.draw(g);
 	}
 
 }
